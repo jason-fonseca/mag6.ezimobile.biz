@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mage_Pear_Helpers</name>
+    <version>1.0.18800</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Files that needs to be in PEAR library such as roles, tasks and commands</summary>
+    <description>Includes:
+./pear
+./lib/pear/php/pearmage.php
+./lib/pear/php/PEAR/Command/Mage*
+./lib/pear/php/PEAR/Installer/Role//Mage*</description>
+    <notes>First stable release</notes>
+    <authors><author><name>Moshe Gurvich</name><user>moshe</user><email>moshe@varien.com</email></author></authors>
+    <date>2008-03-31</date>
+    <time>09:30:32</time>
+    <contents><target name="php"><dir name="PEAR"><dir name="Command"><file name="Mage.php" hash="78e50bbd748f18bd2e41d4fcb75bebc4"/><file name="Mage.xml" hash="6be7dfbe25f59bf8ab43d167acea5c1d"/></dir><dir name="Installer"><dir name="Role"><file name="Mage.php" hash="3cd6ca46e3c817e69c93191339fbd1b3"/><file name="Mage.xml" hash="aa0481ad26bd06335bdd2c33e0d05e4c"/><file name="Magecommunity.php" hash="6883659b6769d4f2377e89fd0cc8c567"/><file name="Magecommunity.xml" hash="a4af396f7ce3cf766692a43ad19999e0"/><file name="Magecore.php" hash="6d8294715141bcf0426707bf396fdc9e"/><file name="Magecore.xml" hash="e594dbddd25a2b19d78e344b738f985f"/><file name="Magedesign.php" hash="bb9ad3e0c38a7431e490f297f57a009f"/><file name="Magedesign.xml" hash="1b457a4b589ce60a9369c5b32f26439b"/><file name="Mageetc.php" hash="6c724a468da6a3eef7fc50712f9b72d7"/><file name="Mageetc.xml" hash="d5eb7a8a335131052ae5426cf3c32526"/><file name="Magelib.php" hash="01a2ac0481e6e4cc612257175bebaa8f"/><file name="Magelib.xml" hash="d62e1e596596993582d4459884ded0b0"/><file name="Magelocal.php" hash="83bfcab888941705c5015dec4de3ef8d"/><file name="Magelocal.xml" hash="f6891c4c6701301fd5e6a44079d53c6b"/><file name="Magelocale.php" hash="07c0de4909c44066a532b2e1e0d3e826"/><file name="Magelocale.xml" hash="7b4eac70932914f0c917a7d0ade58aed"/><file name="Magemedia.php" hash="e2d9705fc30062c9256b123dae93047b"/><file name="Magemedia.xml" hash="d13eb312b33a02a8ad5052a21158a58e"/><file name="Mageskin.php" hash="5ba871968ce0aa8c67a211a96211a4e3"/><file name="Mageskin.xml" hash="e7dbd60378b10243ab67be148d782494"/><file name="Magetest.php" hash="206239d35a13c576dcf454c3cee9f852"/><file name="Magetest.xml" hash="9ae0894a07764794022553dccc64e8c2"/><file name="Mageweb.php" hash="5c782192d6f599b6f5a0522b28498187"/><file name="Mageweb.xml" hash="ad84936dd30548ce972c1bbc04c4e944"/></dir></dir></dir><dir name="."><file name="pearmage.php" hash="e6bdff850af0cdcc99e679991efb867e"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>PEAR</name><channel>pear.php.net</channel><min>1.6.2</min><max/></package></required></dependencies>
+</package>
